@@ -1,4 +1,4 @@
-# learning-assurance-project
+# neural-networks-learning-assurance
 
 Context - Python Machine Learning Project as part of the DSTI Applied MSc in Data Science and Artificial Intelligence.
 
