@@ -6,7 +6,7 @@ Python Machine Learning Project as part of the DSTI Applied MSc in Data Science 
 
 ### Project Objective
 To “mimic” the design, development and verification phases of a safety-critical embedded machine learning software based on the preliminary guidance material issued by the European Civil Aviation Authorities (CoDANN).
-For more detailed information please refer to the attached presentation (to view the demo videos, use the .ppt format).
+For more detailed information please refer to the attached presentation (to view the demo videos, open the .ppt format as raw).
 
 
 ### References
