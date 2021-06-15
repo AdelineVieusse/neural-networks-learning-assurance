@@ -93,3 +93,19 @@ For more detailed information please refer to the attached presentation.
      - “A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks”, Dan Hendrycks, Kevin Gimpel ([article](https://arxiv.org/abs/1610.02136))
      - “Enhancing the reliability of out-of-distribution image detection in neural networks”, Shiyu Liang, Yixuan Li, R. Srikant ([article](https://arxiv.org/abs/1706.02690))
      - “Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data”, Yen-Chang Hsu, Yilin Shen, Hongxia Jin, Zsolt Kira ([article](https://arxiv.org/abs/2002.11297))
+     - “Detecting Out-of-Distribution Inputs in Deep Neural Networks Using an Early-Layer Output”, Vahdat Abdelzad, Krzysztof Czarnecki, Rick Salay, Taylor Denounden, Sachin Vernekar, Buu Phan ([article](https://arxiv.org/abs/1910.10307) + [implementation](https://github.com/gietema/ood-early-layer-detection))
+
+* Model Training
+     - “Insights on representational similarity in neural networks with canonical correlation”,  Ari S. Morcos, Maithra Raghu, Samy Bengio ([article](https://arxiv.org/abs/1806.05759) + [implementation](https://github.com/google/svcca))
+     - “Similarity of Neural Network Representations Revisited”, Simon Kornblith, Mohammad Norouzi, Honglak Lee, Geoffrey Hinton ([article](https://arxiv.org/abs/1905.00414) + [implementation](https://colab.research.google.com/github/google-research/google-research/blob/master/representation_similarity/Demo.ipynb))
+
+* Learning Process Verification
+     - “On Calibration of Modern Neural Networks”, Chuan Guo, Geoff Pleiss, Yu Sun, Kilian Q. Weinberger ([article](https://arxiv.org/abs/1706.04599) + [implementation](https://github.com/gpleiss/temperature_scaling))
+     - “DNNV: A Framework for Deep Neural Network Verification”, David Shriver, Sebastian Elbaum, Matthew B. Dwyer ([article](https://arxiv.org/abs/2105.12841) + [implementation](https://github.com/dlshriver/DNNV) + [documentation](https://dnnv.readthedocs.io/en/latest/index.html) + [video](https://www.youtube.com/watch?v=M5G_OWfCF2o))
+     - “Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks”, Guy Katz, Clark Barrett, David Dill, Kyle Julian, Mykel Kochenderfer ([article](https://arxiv.org/abs/1702.01135) + [implementation](https://github.com/guykatzz/ReluplexCav2017))
+     - “ETH Robustness Analyzer for Neural Networks (ERAN)” ([implementation](https://github.com/eth-sri/eran))
+
+* Model Implementation
+     - “Deep Model Compression and Architecture Optimization for Embedded Systems: A Survey”,  Anthony Berthelier, Thierry Chateau, Stefan Duffner, Christophe Garcia, Christophe Blanc ([article](https://hal.archives-ouvertes.fr/hal-03048735/document))
+     - “A Survey of Model Compression and Acceleration for Deep Neural Networks”, Yu Cheng, Duo Wang, Pan Zhou, Tao Zhang ([article](https://arxiv.org/abs/1710.09282))
+
