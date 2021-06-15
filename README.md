@@ -85,10 +85,11 @@ For more detailed information please refer to the attached presentation.
 
 ### References
 * Project Overview
-“Artificial Intelligence Roadmap – A human-centric approach to Ai in Aviation”, EASA Report ([document](https://www.easa.europa.eu/sites/default/files/dfu/EASA-AI-Roadmap-v1.0.pdf))
-“Concepts of Design Assurance for Neural Networks (CoDANN)”, EASA AI Task Force and Daedalean AG (document)
-Data Management
-[DM1] “Out-of-Distribution Detection in Deep Neural Networks”, Neeraj Varshney (article)
-[DM2] “A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks”, Dan Hendrycks, Kevin Gimpel (article)
-[DM3] “Enhancing the reliability of out-of-distribution image detection in neural networks”, Shiyu Liang, Yixuan Li, R. Srikant (article)
-[DM4] “Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data”, Yen-Chang Hsu, Yilin Shen, Hongxia Jin, Zsolt Kira (article)
+     - “Artificial Intelligence Roadmap – A human-centric approach to Ai in Aviation”, EASA Report ([document](https://www.easa.europa.eu/sites/default/files/dfu/EASA-AI-Roadmap-v1.0.pdf))
+     - “Concepts of Design Assurance for Neural Networks (CoDANN)”, EASA AI Task Force and Daedalean AG ([document](https://www.easa.europa.eu/sites/default/files/dfu/EASA-DDLN-Concepts-of-Design-Assurance-for-Neural-Networks-CoDANN.pdf))
+
+* Data Management
+     - “Out-of-Distribution Detection in Deep Neural Networks”, Neeraj Varshney ([article](https://medium.com/analytics-vidhya/out-of-distribution-detection-in-deep-neural-networks-450da9ed7044))
+     - “A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks”, Dan Hendrycks, Kevin Gimpel ([article](https://arxiv.org/abs/1610.02136))
+     - “Enhancing the reliability of out-of-distribution image detection in neural networks”, Shiyu Liang, Yixuan Li, R. Srikant ([article](https://arxiv.org/abs/1706.02690))
+     - “Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data”, Yen-Chang Hsu, Yilin Shen, Hongxia Jin, Zsolt Kira ([article](https://arxiv.org/abs/2002.11297))
