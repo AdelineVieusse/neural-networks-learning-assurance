@@ -84,12 +84,11 @@ For more detailed information please refer to the attached presentation.
           - Platform – Jetbot
 
 ### References
-Project Overview
-[PO1] “Artificial Intelligence Roadmap – A human-centric approach to Ai in Aviation”, EASA Report (document)
-[PO2] “Concepts of Design Assurance for Neural Networks (CoDANN)”, EASA AI Task Force and Daedalean AG (document)
+* Project Overview
+“Artificial Intelligence Roadmap – A human-centric approach to Ai in Aviation”, EASA Report ([document](https://www.easa.europa.eu/sites/default/files/dfu/EASA-AI-Roadmap-v1.0.pdf))
+“Concepts of Design Assurance for Neural Networks (CoDANN)”, EASA AI Task Force and Daedalean AG (document)
 Data Management
 [DM1] “Out-of-Distribution Detection in Deep Neural Networks”, Neeraj Varshney (article)
 [DM2] “A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks”, Dan Hendrycks, Kevin Gimpel (article)
 [DM3] “Enhancing the reliability of out-of-distribution image detection in neural networks”, Shiyu Liang, Yixuan Li, R. Srikant (article)
 [DM4] “Generalized ODIN: Detecting Out-of-distribution Image without Learning from Out-of-distribution Data”, Yen-Chang Hsu, Yilin Shen, Hongxia Jin, Zsolt Kira (article)
-![image](https://user-images.githubusercontent.com/76960664/122056558-fa93db00-cde9-11eb-8663-120993082fc5.png)
