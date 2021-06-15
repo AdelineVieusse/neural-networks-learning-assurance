@@ -6,7 +6,15 @@ Python Machine Learning Project as part of the DSTI Applied MSc in Data Science 
 
 ### Project Objective
 To “mimic” the design, development and verification phases of a safety-critical embedded machine learning software based on the preliminary guidance material issued by the European Civil Aviation Authorities (CoDANN).
+1. To review the design assurance requirements for AI-based embedded safety-critical applications
+2. To explore the various techniques and tools available to satisfy these design assurance requirements.
+3. To implement some of these techniques on a simple use case scenario.
+
 For more detailed information please refer to the attached presentation (demo videos available in zipped .ppt file).
+
+
+### End-to-end solution overall architecture
+![image](https://user-images.githubusercontent.com/76960664/122061175-90316980-cdee-11eb-84ec-25e4984f42cd.png)
 
 
 ### References
