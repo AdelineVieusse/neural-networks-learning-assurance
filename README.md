@@ -3,9 +3,11 @@
 ### Context
 Python Machine Learning Project as part of the DSTI Applied MSc in Data Science and Artificial Intelligence.
 
+
 ### Project Objective
 To “mimic” the design, development and verification phases of a safety-critical embedded machine learning software based on the preliminary guidance material issued by the European Civil Aviation Authorities (CoDANN).
 For more detailed information please refer to the attached presentation.
+
 
 ### Software modules architecture
 * Data Management
@@ -28,11 +30,13 @@ For more detailed information please refer to the attached presentation.
      - Other files
           - TRG_DATASET_NORM_PARAM.csv – Output of training_dataset_normalization_parameters.ipynb.
           - augmented_csv.csv – Sample traceability file for Training Dataset 1.
+
 * Learning Process Management
      - learning_process_management.ipynb
           - Objective – To select the hyperparameters (e.g. batch size, learning rate…) to be used for the training of the final models.
           - Output – Training strategy (hyperparameters…).
-          - Platform – Colab ![image](https://user-images.githubusercontent.com/76960664/122056758-39c22c00-cdea-11eb-8185-4fa60ba74090.png)
+          - Platform – Colab 
+
 * Model Training
      - model_training.ipynb
           - Objective – To train the 3 final models in accordance with the training strategy defined previously.
@@ -42,6 +46,7 @@ For more detailed information please refer to the attached presentation.
           - Objective – To verify the stability of the training algorithm.
           - Output – CKA Similarity index for each layer and each pair of models + Result similarity metric for each pair of models.
           - Platform – Colab
+
 * Learning Process Verification
      - learning_process_verification.ipynb
           - Objective – To verify the performance of the trained networks using the test dataset.
@@ -55,6 +60,7 @@ For more detailed information please refer to the attached presentation.
           - Objective – To verify the properties of the trained models using the Reluplex and Eran methodologies (through the DNNV package).
           - Output – Properties verification pass/fail for each model and each methodology.
           - Platform – Colab
+
 * Model Implementation
      - model_optimization.ipynb
           - Objective – To prune the trained models and retrain them.
@@ -70,6 +76,7 @@ For more detailed information please refer to the attached presentation.
           - Platform – Jetbot
      - Other files
           - SVM_model.sav – Locally retrained SVM model, output of SVM_model_training.ipynb
+
 * Inference Model Verification
      - inference_model_test.ipynb
           - Objective – To test the performance of the pruned models once embedded on the Jetbot platform using the test dataset.
