@@ -1,11 +1,13 @@
 # neural-networks-learning-assurance
 
-Context - Python Machine Learning Project as part of the DSTI Applied MSc in Data Science and Artificial Intelligence.
+### Context
+Python Machine Learning Project as part of the DSTI Applied MSc in Data Science and Artificial Intelligence.
 
-Project Objective - To “mimic” the design, development and verification phases of a safety-critical embedded machine learning software based on the preliminary guidance material issued by the European Civil Aviation Authorities (CoDANN).
+### Project Objective
+To “mimic” the design, development and verification phases of a safety-critical embedded machine learning software based on the preliminary guidance material issued by the European Civil Aviation Authorities (CoDANN).
 For more detailed information please refer to the attached presentation.
 
-Software modules architecture
+### Software modules architecture
 * Data Management
      - data_collection.ipynb
           - Objective – To collect the pictures and record associated information (date/time, lighting condition, distance/angle Jetbot/holding point…).
@@ -17,12 +19,64 @@ Software modules architecture
           - Platform – Local PC
      - training_dataset_normalization_parameters.ipynb
           - Objective – To compute the mean and standard deviation of the 3 Training/Validation datasets.
-          - Output – .csv file containing the mean and standard deviation for each channel (R/G/B) to be used to normalize each training dataset as well as the average for each           - parameter to be used with the test dataset and in service.
-Platform –  Colab
-![image](https://user-images.githubusercontent.com/76960664/122056487-ebad2880-cde9-11eb-8046-6d99c0205676.png)
+          - Output – .csv file containing the mean and standard deviation for each channel (R/G/B) to be used to normalize each training dataset as well as the average for each parameter to be used with the test dataset and in service.
+          - Platform –  Colab
+     - discriminator.ipynb
+          - Objective – To find the best layer for Early Layer OOD Discriminator and build the SVM Model.
+          - Output – Best candidate layer for early layer SVM + SVM Model.
+          - Platform – Colab
+     - Other files
+          - TRG_DATASET_NORM_PARAM.csv – Output of training_dataset_normalization_parameters.ipynb.
+          - augmented_csv.csv – Sample traceability file for Training Dataset 1.
+* Learning Process Management
+     - learning_process_management.ipynb
+          - Objective – To select the hyperparameters (e.g. batch size, learning rate…) to be used for the training of the final models.
+          - Output – Training strategy (hyperparameters…).
+          - Platform – Colab ![image](https://user-images.githubusercontent.com/76960664/122056758-39c22c00-cdea-11eb-8185-4fa60ba74090.png)
+* Model Training
+     - model_training.ipynb
+          - Objective – To train the 3 final models in accordance with the training strategy defined previously.
+          - Output – 3 trained models.
+          - Platform – Colab
+     - stability_analysis_cca_cka_results.ipynb
+          - Objective – To verify the stability of the training algorithm.
+          - Output – CKA Similarity index for each layer and each pair of models + Result similarity metric for each pair of models.
+          - Platform – Colab
+* Learning Process Verification
+     - learning_process_verification.ipynb
+          - Objective – To verify the performance of the trained networks using the test dataset.
+          - Output – Performance metrics for each model.
+          - Platform – Colab
+     - temperature_scaling.ipynb
+          - Objective – To compute the Temperature Scaling Coefficient for each model and calibrate the trained models.
+          - Output – Temperature Scaling Coefficient for each model.
+          - Platform – Colab
+     - model_verification_DNNV.ipynb
+          - Objective – To verify the properties of the trained models using the Reluplex and Eran methodologies (through the DNNV package).
+          - Output – Properties verification pass/fail for each model and each methodology.
+          - Platform – Colab
+* Model Implementation
+     - model_optimization.ipynb
+          - Objective – To prune the trained models and retrain them.
+          - Output – 3 pruned models and associated performance metrics.
+          - Platform – Colab
+     - SVM_model_training.ipynb
+          - Objective – To recompute the SVM model used to detect out of distribution images.
+          - Output – SVM model.
+          - Platform – Jetbot
+     - inference_model.ipynb
+          - Objective – To implement the final system on the Jetbot platform, i.e. live camera feed image pre-processing + pruned models + discriminator (SVM model) + voting/filtering + display + guidance.
+          - Output – End-to-end solution capable of processing camera feed in real-time and raise alerts if a holding point is detected.
+          - Platform – Jetbot
+     - Other files
+          - SVM_model.sav – Locally retrained SVM model, output of SVM_model_training.ipynb
+* Inference Model Verification
+     - inference_model_test.ipynb
+          - Objective – To test the performance of the pruned models once embedded on the Jetbot platform using the test dataset.
+          - Output – Performance metrics.
+          - Platform – Jetbot
 
-
-References
+### References
 Project Overview
 [PO1] “Artificial Intelligence Roadmap – A human-centric approach to Ai in Aviation”, EASA Report (document)
 [PO2] “Concepts of Design Assurance for Neural Networks (CoDANN)”, EASA AI Task Force and Daedalean AG (document)
